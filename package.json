@@ -1,0 +1,33 @@
+{
+  "name": "native-f2charts",
+  "version": "1.0.6",
+  "description": "f2charts for react-native",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-publish": "rm -rf native-f2-demo/android/app/build && rm -rf native-f2-demo/android/build && rm -rf native-f2-demo/ios/build && rm -rf native-f2-demo/node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becarchal/native-f2charts.git"
+  },
+  "keywords": [
+    "react-native",
+    "f2charts",
+    "chart",
+    "charts"
+  ],
+  "author": "becarchal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/becarchal/native-f2charts/issues"
+  },
+  "homepage": "https://github.com/becarchal/native-f2charts#readme",
+  "dependencies": {
+    "@antv/f2": "3.0.3"
+  },
+  "devDependencies": {}
+}

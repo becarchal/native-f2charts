@@ -1,0 +1,3 @@
+rootProject.name = 'nativef2demo'
+
+include ':app'
