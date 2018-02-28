@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-publish": "rm -rf native-f2-demo/android/app/build && rm -rf native-f2-demo/android/build && rm -rf native-f2-demo/ios/build && rm -rf native-f2-demo/node_modules"
+    "pre-publish": "rm -rf native-f2-demo/android/app/build native-f2-demo/android/build native-f2-demo/ios/build native-f2-demo/node_modules"
   },
   "repository": {
     "type": "git",
