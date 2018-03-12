@@ -27,6 +27,8 @@ import BarType from './bar/BarType';
 import BarJadeLack from './bar/BarJadeLack';
 import BarAnimation from './bar/BarAnimation';
 
+import Kline from './kline/Kline';
+
 import PieBasic from './pie/PieBasic';
 import PieLabel from './pie/PieLabel';
 import PieAnnular from './pie/PieAnnular';
@@ -122,6 +124,10 @@ class HomeScreen extends React.Component {
           title: 'Bar (Column) - Animation'
         },
         {
+          route: 'Kline',
+          title: 'Kline (Column) - Basic'
+        },
+        {
           route: 'PieBasic',
           title: 'Pie (Column) - Basic'
         },
@@ -194,6 +200,7 @@ const App = StackNavigator({
   BarType: { screen: BarType },
   BarJadeLack: { screen: BarJadeLack },
   BarAnimation: { screen: BarAnimation },
+  Kline: { screen: Kline },
   PieBasic: { screen: PieBasic },
   PieLabel: { screen: PieLabel },
   PieAnnular: { screen: PieAnnular },
